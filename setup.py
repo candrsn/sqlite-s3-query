@@ -28,6 +28,7 @@ setuptools.setup(
     python_requires='>=3.6.0',
     install_requires=[
         'httpx>=0.18.2',
+        'boto3>=1.18.51'
     ],
     py_modules=[
         'sqlite_s3_query',
